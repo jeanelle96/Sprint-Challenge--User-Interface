@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
 	quotes: none;
@@ -143,4 +143,62 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+a{
+    text-decoration:none;
+}
+footer{
+    text-align: center;
+}
+.boxes .box:nth-child(1){
+    background: teal;
+}
+.boxes .box:nth-child(2){
+    background: gold;
+}
+.boxes .box:nth-child(3){
+    background:cadetblue;
+}
+.boxes .box:nth-child(4){
+    background: coral;
+}
+.boxes .box:nth-child(5){
+    background: crimson;
+}
+.boxes .box:nth-child(6){
+    background: forestgreen;
+}
+.boxes .box:nth-child(7){
+    background: darkorchid;
+}
+.boxes .box:nth-child(8){
+    background: hotpink;
+}
+.boxes .box:nth-child(9){
+    background: indigo;
+}
+.boxes .box:nth-child(10){
+    background: dodgerblue;
+}
+.content-image{
+    width: 100%;
+    max-width: 800%;
+    min-height: 153px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+header ul a{
+    color: black;
+    font-size: 12px;
+    justify-content: space-between;
+    font-weight: bold;
+}
+footer ul a{
+    color: white;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    font-weight: bold;
+    font-size: 12px;
 }
